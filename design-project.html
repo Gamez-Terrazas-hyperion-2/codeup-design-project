@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Design Project</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="design-project.css">
+
 </head>
 <body>
 <main>
@@ -19,75 +24,153 @@
     </div>
     <h2 class="text-center mt-5"> FROM PARK CITY, UTAH</h2>
     <!--        2 x 2 Circle grid -->
-    <div class="row ">
-    <div class="container-buttons justify-content-center mx-auto my-5 p-auto row row col-6">
-        <div class="rounded-circle ">DESIGN</div>
-        <div class="rounded-circle ">DEVELOP</div>
-        <div class="rounded-circle ">SUPPORT</div>
-        <div class="rounded-circle ">HOST</div>
-    </div>
+    <div class="container">
+        <div class="container-buttons justify-content-center row">
+            <div class="rounded-circle col-auto">DESIGN</div>
+            <div class="rounded-circle col-auto">DEVELOP</div>
+            <div class="w-100 d-sm-none"></div>
+            <div class="rounded-circle col-auto">SUPPORT</div>
+            <div class="rounded-circle col-auto">HOST</div>
+        </div>
     </div>
     <hr class="d-none d-sm-block">
-    <div class="container-work mt-5">
+    <div class="container container-work mt-5">
         <h4 class="text-center m-5">SELECTED WORK</h4>
-<!---------------------------------------------------        IMAGES for selected work Grid-->
-        <div class="project-container justify-content-center m-auto p-auto row row col-8" class="rounded mx-auto d-block">
+        <!---------------------------------------------------        IMAGES for selected work Grid-->
+        <div class="project-container justify-content-center">
             <div class="row">
-<!--------------------------------                IPAD card-->
-                <div class="card">
-                    <div class="img-container">
-                        <img src="assets/images/apple-ipad.jpg" alt="laptop"width="100%" class="p-2">
-                    </div>
-                        <div class="feature-container row mt-1">
-                            <h4 class="lead col-7 mt-1 ">FEATURED PROJECT</h4>
-                                <div class="icons col-5">
-                                    <ul class="row mt-1">
-                                        <li class="mx-1 "><p>D</p></li>
-                                        <li class="mx-1"><p>D</p></li>
-                                        <li class="mx-1"><p>S</p></li>
-                                        <li class="mx-1"><p>H</p></li>
-                                    </ul>
+                <div class="col col-md-8">
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="card">
+                                <div class="img-container">
+                                    <img src="assets/images/apple-ipad.jpg" alt="laptop" width="100%" class="p-2">
                                 </div>
-<!--                        icons-->
+                                <div class="feature-container row mt-1">
+                                    <h4 class="lead col-7 mt-1">FEATURED PROJECT</h4>
+                                    <div class="icons col-5">
+                                        <ul class="row mt-1">
+                                            <li class="mx-1"><p>D</p></li>
+                                            <li class="mx-1"><p>D</p></li>
+                                            <li class="mx-1"><p>S</p></li>
+                                            <li class="mx-1"><p>H</p></li>
+                                        </ul>
+                                    </div>
+                                    <!--                        icons-->
+                                </div>
+                            </div>
                         </div>
-                </div>
-<!--------------------------------                MACBOOK card-->
-                <div class="card">
-                    <img src="assets/images/macbook.jpg" alt="macbook" width="100%">
-                        <div class="feature-container">
-                            <h4>FEATURED PROJECT</h4>
-<!--                    icons-->
+
+                        <!--------------------------------                IPAD card-->
+
+                        <!--------------------------------                MACBOOK card-->
+                        <div class="d-none d-sm-block col-6">
+                            <div class="card">
+                                <div class="img-container">
+                                    <img src="assets/images/macbook.jpg" alt="macbook" width="100%" class="p-2">
+                                </div>
+                                <div class="feature-container row mt-1">
+                                    <h4 class="lead col-7 mt-1">FEATURED PROJECT</h4>
+                                    <div class="icons col-5">
+                                        <ul class="row mt-1">
+                                            <li class="mx-1 "><p>D</p></li>
+                                            <li class="mx-1"><p>D</p></li>
+                                            <li class="mx-1"><p>S</p></li>
+                                            <li class="mx-1"><p>H</p></li>
+                                        </ul>
+                                    </div>
+                                    <!--                    icons-->
+                                </div>
+                            </div>
                         </div>
-                </div>
-<!--------------------------------            MAN card-->
-                <div class="card">
-                    <img src="assets/images/man.jpg" alt="man" width="100%">
-                        <div class="feature-container">
-                            <h4>FEATURED PROJECT</h4>
-<!--                            icons-->
+                        <!--------------------------------            MAN card 640x425-->
+                        <div class="d-none d-sm-block col-6">
+                            <div class="card">
+                                <div class="img-container">
+                                    <img src="assets/images/man.jpg" alt="man" width="100%" class="p-2">
+                                </div>
+                                <div class="feature-container row mt-1">
+                                    <h4 class="lead col-7 mt-1">FEATURED PROJECT</h4>
+                                    <div class="icons col-5">
+                                        <ul class="row mt-1">
+                                            <li class="mx-1 "><p>D</p></li>
+                                            <li class="mx-1"><p>D</p></li>
+                                            <li class="mx-1"><p>S</p></li>
+                                            <li class="mx-1"><p>H</p></li>
+                                        </ul>
+                                    </div>
+                                    <!--                            icons-->
+                                </div>
+                            </div>
                         </div>
+                        <!--------------------------------            SECURITY card-->
+                        <div class="d-none d-sm-block col-6">
+                            <div class="card">
+                                <div class="img-container">
+                                    <img src="assets/images/security.jpg" alt="security" width="100%" class="p-2">
+                                </div>
+                                <div class="feature-container row mt-1">
+                                    <h4 class="lead col-7 mt-1">FEATURED PROJECT</h4>
+                                    <div class="icons col-5">
+                                        <ul class="row mt-1">
+                                            <li class="mx-1 "><p>D</p></li>
+                                            <li class="mx-1"><p>D</p></li>
+                                            <li class="mx-1"><p>S</p></li>
+                                            <li class="mx-1"><p>H</p></li>
+                                        </ul>
+                                    </div>
+                                    <!--                                        icons end-->
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                        Aside -->
+                            </div>
+                                    <div class="aside">
+                                 <aside class=" row d-none d-md-block">
+                                     <h4>The Last</h4>
+                                     <ul class="">
+                                         <li>
+                                             <img src="assets/images/mobile-phone.jpg" alt="mobile" height="64px" width="64px">
+                                             <h4>THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
+                                         </li>
+
+                                         <li>
+                                             <img src="assets/images/head.jpg" alt="head"  height="64px" width="64px">
+                                             <h4>NIBBLER AWESOME WEBSITE TESTING</h4>
+                                         </li>
+
+                                         <li><img src="assets/images/ipad.jpg" alt="ipad"  height="64px" width="64px">
+                                             <h4>HOW TO GET GOOGLE TO LIKE YOU</h4>
+                                         </li>
+
+                                     </ul>
+                    <!--                                        Tweet-->
+                                        <div>
+                                           <h5><i class="icon-twitter"></i> LAST TWEET</h5>
+                                            <p>Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the Boundaries of Goods and Evils; finibus may also be translated as purposes). Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</p>
+
+                                        </div>
+
+
+                    </aside>
                 </div>
-<!--------------------------------            SECURITY card-->
-                <div class="card">
-                    <img src="assets/images/security.jpg" alt="security" width="100%">
-                        <div class="feature-container">
-                            <h4>FEATURED PROJECT</h4>
-<!--                            icons-->
-                        <div>
-                </div>
-            </div>
-        </div>
             </div>
         </div>
     </div>
-
 </main>
 
 
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 </html>
